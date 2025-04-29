@@ -9,7 +9,7 @@ function atualizar(e){
     let obsidade = nivel(imc)
 
     
-    resultado.innerHTML = `<P>Meu IMC é ${imc} e seu nivel é ${obsidade}</P>`
+    resultado.innerHTML = `<P>Meu IMC é ${imc.toFixed(2)} e seu nivel é ${obsidade}</P>`
 }
 
 
